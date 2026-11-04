@@ -1,0 +1,11 @@
+# 生データは公開リポジトリに含めない（APK・逆コンパイル全文・未マスクのログ）
+private_inputs/
+*.apk
+*.apks
+*.xapk
+*.flow
+*.har
+*.mp4
+jadx_out/
+__pycache__/
+.pytest_cache/

@@ -1,0 +1,7 @@
+11-05 10:00:00.100  1000  1100 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=https://invite.example.com/... flg=0x10000000 cmp=com.example.lite/.DeepLinkActivity} from uid 10123
+11-05 10:00:00.900  1000  1120 I ActivityTaskManager: Displayed com.example.lite/.DeepLinkActivity: +780ms
+11-05 10:00:01.200  4321  4400 D InviteHandler: parse invite_code=ABC12345 inviter user_id=7300000000000000001
+11-05 10:00:01.300  4321  4400 D SomethingElse: unrelated line
+11-05 10:00:02.000  4321  4400 E ApiClient: request failed in com.example.lite.invite.Bind code=E_NOT_NEW
+11-05 10:00:02.100  5555  5555 E Other: Exception in com.other.app
+this line is not logcat format
